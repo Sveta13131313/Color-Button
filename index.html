@@ -1,12 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .wrapper {
+            width: 200px;
+            height: 160px;
+            position: absolute;
+            left: 50%;
+            margin-left: -100px;
+            top: 30%;
+            margin-top: -80px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color:white;
+        }
+
+        button {
+            border: none;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            font-weight: bold;
+        }
+    </style>
 </head>
+
 <body>
-    <script src="script.js"></script>
+    <div class="wrapper">
+        <h1 id="color">#008d3b</h1>
+        <button id="change" type="button">New color</button>
+    </div>
+    <script src="script.js"> </script>
 </body>
+
 </html>
